@@ -1,0 +1,107 @@
+{
+  "site": {
+    "brandYear": "2026",
+    "confidentialNote": "Confidential — For Internal Use Only"
+  },
+  "home": {
+    "description": "Building a straight boulevard that leads premium Vietnamese women's fashion brands to the global market — pioneering the promotion of \"made-in-Vietnam\" quality internationally.",
+    "cards": [
+      { "label": "01", "title": "Brand Overview", "text": "Mission, vision, target audience, and global market positioning.", "link": "overview.html" },
+      { "label": "02", "title": "Core Values", "text": "Innovation, Integrity, Diversity, and Agile — the pillars of MEAN BLVD.", "link": "values.html" },
+      { "label": "03", "title": "Brand Personality", "text": "Maverick. Elegant. Artisanal. Nobby. — The M.E.A.N characteristics.", "link": "personality.html" },
+      { "label": "04", "title": "Tone of Voice", "text": "Communication guidelines, vocabulary rules, and content approach.", "link": "voice.html" },
+      { "label": "05", "title": "Visual Identity", "text": "Logo, color palette, typography, and pattern system.", "link": "identity.html" }
+    ]
+  },
+  "overview": {
+    "heroSubtitle": "Understanding MEAN BLVD's mission, vision, and the global market we serve.",
+    "mission": "To build a \"straight boulevard\" that leads Vietnam's top local fashion brands to the global market — pioneering the promotion of \"made-in-Vietnam\" quality internationally.",
+    "missionVi": "MEAN BLVD (MEAN BOULEVARD) là một platform bán lẻ, phân phối chính hãng các sản phẩm từ các thương hiệu thời trang thiết kế nữ cao cấp của Việt Nam tới thị trường quốc tế.",
+    "visionShort": {
+      "title": "Establish & Solidify",
+      "text": "Become the premier retail platform for Vietnamese local fashion. Strengthen distribution channels, establish MEAN BLVD as the leading platform, and solidify a global logistics network."
+    },
+    "visionLong": {
+      "title": "Expand & Lead",
+      "text": "Act as a gateway for Asian local fashion — Thailand, South Korea, and beyond — connecting unique regional styles with global consumers and becoming the primary gateway for Asian fashion worldwide."
+    },
+    "targetAudience": {
+      "subtitle": "Women who value unique designs, cultural identity, and premium quality at an accessible price point.",
+      "ageRange": "25–44",
+      "monthlyIncome": "$2,000+",
+      "avgOrderValue": "~$350"
+    },
+    "positioning": "A premium fashion platform offering unique designs from renowned designers at an affordable price",
+    "positioningCompetitors": "Competing alongside high-fashion distributors like Farfetch and Net-A-Porter",
+    "markets": ["🌏 Middle East", "🇹🇭 Thailand", "🇲🇾 Malaysia", "🇺🇸 United States", "🇨🇳 China", "🇦🇺 Australia", "🇪🇺 Europe"]
+  },
+  "values": {
+    "heroSubtitle": "The foundational principles that guide every decision at MEAN BLVD.",
+    "coreValues": [
+      { "title": "Innovation", "text": "Pioneering new pathways in fashion distribution and technology-driven commerce. We embrace change and lead through creativity." },
+      { "title": "Integrity", "text": "Building trust through transparency, quality, and genuine partnerships with designers. Every promise is a commitment delivered." },
+      { "title": "Diversity", "text": "Celebrating the rich tapestry of Asian fashion and embracing multicultural perspectives. Inclusive fashion that speaks to all." },
+      { "title": "Agile", "text": "Adapting swiftly to market changes while maintaining uncompromising quality standards. Speed with purpose and precision." }
+    ],
+    "operations": [
+      { "title": "Partnerships", "text": "Cultivating strong relationships with local designers, aiding them in market research, branding strategy, and international expansion." },
+      { "title": "Supply Chain", "text": "Optimized procurement, rigorous quality control, and a flexible global logistics system ensuring timely delivery worldwide." },
+      { "title": "Technology", "text": "Automated e-commerce processes, intelligent inventory management, data analytics, and seamless digital shopping experiences." },
+      { "title": "Marketing", "text": "Multi-channel strategy combining digital campaigns, influencer partnerships, and offline media events for maximum brand impact." }
+    ]
+  },
+  "personality": {
+    "heroSubtitle": "The character traits that define how MEAN BLVD presents itself to the world.",
+    "personaTitle": "Sophistication",
+    "personaDescription": "Quality-focused with meticulous attention to detail — every touchpoint reflects refined craftsmanship and timeless elegance.",
+    "mean": [
+      { "letter": "M", "title": "Maverick", "text": "Bold, daring, and creatively limitless. We break the mold and forge new paths in fashion — unconventional by design." },
+      { "letter": "E", "title": "Elegant", "text": "Timeless sophistication, grace, and refined beauty. Every design reflects a commitment to elevated aesthetics." },
+      { "letter": "A", "title": "Artisanal", "text": "Dedication to exceptional quality and refined artistry. Each piece tells a story of mastery, heritage, and handcrafted care." },
+      { "letter": "N", "title": "Nobby", "text": "Distinctive, luxurious, modern, and confident. Setting trends rather than following them — with assured, stylish flair." }
+    ],
+    "taglineDescription": "Symbolizing the bridge between traditional Vietnamese roots and contemporary global fashion — a touch that connects cultures, generations, and aspirations.",
+    "brandStory": "The name MEAN represents four characteristics — Maverick, Elegant, Artisanal, Nobby — that form the essence of the brand's personality. BLVD (Boulevard) signifies a straight path — a clear, direct route from Vietnamese fashion excellence to the global stage.",
+    "logoInspiration": "Our visual identity draws from the legendary Chim Lạc — the mystic bird of Vietnam found on the ancient Đông Sơn bronze drums, artifacts representing thousands of years of Vietnamese civilization. The geometric symbol represents letters M-E-A-N interwoven in a diamond form, opening a path from Vietnam to the four directions of the world."
+  },
+  "voice": {
+    "heroSubtitle": "How MEAN BLVD communicates — our language, tone, and content guidelines.",
+    "styleDescription": "Our voice sits at a precise point on each spectrum — sophisticated yet approachable, enthusiastic yet respectful.",
+    "dimensions": [
+      { "left": "Formal", "right": "Casual", "value": 40 },
+      { "left": "Serious", "right": "Funny", "value": 70 },
+      { "left": "Respectful", "right": "Irreverent", "value": 10 },
+      { "left": "Reserved", "right": "Enthusiastic", "value": 80 }
+    ],
+    "dos": [
+      "Be polite and professional in all communications",
+      "Use formal, precise vocabulary",
+      "Use warm greetings: \"Welcome back!\"",
+      "Write: \"Warm greetings from MEAN BLVD\"",
+      "Maintain enthusiastic yet respectful tone",
+      "Use full word forms consistently",
+      "Incorporate key words: Authentic, Curated, Exclusive, Excellence"
+    ],
+    "donts": [
+      "Don't use contractions (write \"do not\" instead of \"don't\")",
+      "Avoid slang and colloquialisms",
+      "Never write: \"Hi baby\" or \"Hi love\"",
+      "Don't be overly casual or informal",
+      "Avoid generic or cold language",
+      "Never use abbreviations in formal content",
+      "Do not mix languages within sentences"
+    ],
+    "keywords": ["Authentic", "Curated", "Exclusive", "Excellence", "Premium", "Sophisticated", "Refined", "Timeless", "Heritage", "Craftsmanship"]
+  },
+  "identity": {
+    "heroSubtitle": "The visual elements that make MEAN BLVD instantly recognizable.",
+    "logoDescription": "Our logo is inspired by the legendary \"Chim Lạc\" — the mystic bird of Vietnam found on the ancient Đông Sơn bronze drums.",
+    "colors": [
+      { "name": "MEAN Deep Blue", "hex": "#050f2d", "usage": "Primary text color, headings, footer backgrounds. The foundation of our visual hierarchy." },
+      { "name": "MEAN Pink", "hex": "#e02463", "usage": "Accent color for CTAs, highlights, and key UI elements. Use sparingly to maintain impact." },
+      { "name": "MEAN Rose Powder", "hex": "#f5e8e3", "usage": "Warm section backgrounds, card surfaces, and subtle differentiators. Creates depth without heaviness." },
+      { "name": "White", "hex": "#ffffff", "usage": "Clean backgrounds and content areas." }
+    ],
+    "symbolism": "The geometric symbol represents the letters M-E-A-N interwoven in a balanced diamond form. It symbolizes a \"boulevard\" path opening from Vietnam to the four directions of the world — reflecting both craftsmanship and cultural identity through modern interpretation of ancient motifs."
+  }
+}

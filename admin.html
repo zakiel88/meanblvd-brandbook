@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin — MEAN BLVD Brandbook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+    <!-- Auth Overlay -->
+    <div class="auth-overlay" id="authOverlay">
+        <div class="auth-card">
+            <div class="auth-logo">✦ MEAN BLVD</div>
+            <h2>Brandbook CMS</h2>
+            <p>Enter your GitHub Personal Access Token to manage content.</p>
+            <div class="auth-field">
+                <label for="ghToken">GitHub Token</label>
+                <input type="password" id="ghToken" placeholder="ghp_xxxxxxxxxxxx">
+                <small>Needs <code>repo</code> scope. <a href="https://github.com/settings/tokens/new?scopes=repo&description=MEAN+BLVD+Brandbook+CMS" target="_blank">Generate token →</a></small>
+            </div>
+            <div class="auth-field">
+                <label for="ghRepo">Repository</label>
+                <input type="text" id="ghRepo" value="zakiel88/meanblvd-brandbook" placeholder="owner/repo">
+            </div>
+            <button class="btn btn-primary" id="authBtn">Connect</button>
+            <p class="auth-error" id="authError"></p>
+        </div>
+    </div>
+
+    <!-- Main Admin -->
+    <div class="admin" id="adminPanel" style="display:none;">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <span class="sidebar-logo">✦ CMS</span>
+                <button class="btn-icon" id="logoutBtn" title="Logout">⏻</button>
+            </div>
+            <nav class="sidebar-nav">
+                <button class="sidebar-link active" data-page="home">Home</button>
+                <button class="sidebar-link" data-page="overview">Overview</button>
+                <button class="sidebar-link" data-page="values">Values</button>
+                <button class="sidebar-link" data-page="personality">Personality</button>
+                <button class="sidebar-link" data-page="voice">Voice</button>
+                <button class="sidebar-link" data-page="identity">Identity</button>
+                <hr>
+                <button class="sidebar-link" data-page="site">Site Settings</button>
+            </nav>
+            <div class="sidebar-footer">
+                <button class="btn btn-primary btn-save" id="saveBtn">
+                    <span class="save-icon">💾</span> Save & Deploy
+                </button>
+                <p class="save-status" id="saveStatus"></p>
+            </div>
+        </aside>
+
+        <!-- Content Area -->
+        <main class="main">
+            <header class="main-header">
+                <h1 id="pageTitle">Home</h1>
+                <a href="index.html" target="_blank" class="btn btn-outline">Preview Site →</a>
+            </header>
+
+            <div class="main-content" id="mainContent">
+                <!-- Dynamically filled by admin.js -->
+            </div>
+        </main>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
